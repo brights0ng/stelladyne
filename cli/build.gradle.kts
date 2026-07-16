@@ -1,18 +1,23 @@
 plugins {
-    id("java")
+    application
+    alias(libs.plugins.shadow)
 }
-
-group = "org.example"
-version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testImplementation(platform("org.junit:junit-bom:5.10.0"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    implementation(project(":core"))
+    implementation(libs.picocli)
+
+    testImplementation(platform(libs.junit.bom))
+    testImplementation(libs.junit.jupiter)
+    testRuntimeOnly(libs.junit.platform.launcher)
+}
+
+application {
+    mainClass.set("dev.brights0ng.stelladyne.cli.Main")
 }
 
 tasks.test {

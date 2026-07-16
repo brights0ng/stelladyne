@@ -1,0 +1,13 @@
+[versions]
+picocli = "4.7.7"
+shadow = "9.5.1"
+junit = "5.14.4"
+
+[libraries]
+picocli = { module = "info.picocli:picocli", version.ref = "picocli" }
+junit-bom = { module = "org.junit:junit-bom", version.ref = "junit" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter" }
+junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher" }
+
+[plugins]
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
