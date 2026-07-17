@@ -1,4 +1,0 @@
-Manifest-Version: 1.0
-Main-Class: dev.brights0ng.stelladyne.cli.Main
-Multi-Release: true
-
