@@ -1,4 +1,4 @@
-package dev.brights0ng.stelladyne.pipeline;
+package dev.brights0ng.stelladyne.core.pipeline;
 
 import java.util.SplittableRandom;
 

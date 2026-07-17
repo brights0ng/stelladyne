@@ -1,7 +1,7 @@
 package dev.brights0ng.stelladyne.cli;
 
-import dev.brights0ng.stelladyne.pipeline.FormationPipeline;
-import dev.brights0ng.stelladyne.result.StarSystem;
+import dev.brights0ng.stelladyne.core.pipeline.FormationPipeline;
+import dev.brights0ng.stelladyne.core.result.StarSystem;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
 

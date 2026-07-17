@@ -1,4 +1,4 @@
-package dev.brights0ng.stelladyne.pipeline;
+package dev.brights0ng.stelladyne.core.pipeline;
 
 public sealed interface EpochOutcome permits Success, Aborted, Failed {
 }

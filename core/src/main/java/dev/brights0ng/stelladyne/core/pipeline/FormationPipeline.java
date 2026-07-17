@@ -1,6 +1,6 @@
-package dev.brights0ng.stelladyne.pipeline;
+package dev.brights0ng.stelladyne.core.pipeline;
 
-import dev.brights0ng.stelladyne.result.StarSystem;
+import dev.brights0ng.stelladyne.core.result.StarSystem;
 
 import java.util.*;
 

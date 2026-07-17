@@ -1,4 +1,4 @@
-package dev.brights0ng.stelladyne.result;
+package dev.brights0ng.stelladyne.core.result;
 
 import java.util.List;
 
